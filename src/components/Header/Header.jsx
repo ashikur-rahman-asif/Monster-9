@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <div>
       <div className="navbar bg-base-100 px-5 md:px-28">
