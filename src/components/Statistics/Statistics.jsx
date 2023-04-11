@@ -50,7 +50,7 @@ const Statistics = () => {
     // },[])
   return (
     <div className='p-3 lg:px-16'>
-          <h3 className='text-center font-semibold text-2xl py-5'>Assignment Analytics:</h3>
+          <h1 className='flex text-center text-3xl mt-3 mb-2 font-bold justify-center'>Assignment Analytics:</h1>
           <h3 className='text-start font-semibold text-xl mb-3'>Average Maks: {(data.reduce((partialSum, a) => partialSum + a.marks, 0)/data.length).toFixed(2)}</h3>
             <ResponsiveContainer width='100%' height={300}>
                 <AreaChart

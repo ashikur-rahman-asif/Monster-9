@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
-import Banner from "../Banner/Banner";
 import {
   MapPinIcon,
   BriefcaseIcon,
@@ -47,7 +46,7 @@ const JobDetails = ({ applied }) => {
 
   return (
     <div>
-      <Banner>Job Details</Banner>
+      <h1 className='flex text-center text-3xl mt-3 font-bold justify-center'>Job Details</h1>
       <div className="details-container">
         <div className="p-4 grid grid-cols-1 md:grid-cols-8 gap-3">
           <div className="col-span-5 tracking-wide">

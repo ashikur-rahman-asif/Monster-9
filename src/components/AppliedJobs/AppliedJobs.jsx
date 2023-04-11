@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from "react";
 import { AppliedJobContext, AvailableJobContext } from "../Layout/Main";
 import { getAppliedList } from "../Utilities/Fakedb";
 import { useLoaderData } from "react-router-dom";
-import Banner from "../Banner/Banner";
 import AppliedJob from "../AppliedJob/AppliedJob";
 
 const AppliedJobs = () => {
@@ -54,7 +53,7 @@ const AppliedJobs = () => {
 
   return (
     <div>
-      <Banner>Applied Jobs</Banner>
+      <h1 className='flex text-center text-3xl mt-3 font-bold justify-center'>Applied Jobs</h1>
       <div className="flex flex-col gap-3 details-container mt-5 md:mt-10 min-h-[45vh]">
         <div className="flex justify-center md:justify-end gap-2">
           <button

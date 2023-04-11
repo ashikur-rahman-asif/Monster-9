@@ -1,10 +1,8 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
 const Blogs = () => {
-
   return (
     <div className=''> 
-      <Banner>Blogs</Banner>
+<h1 className='flex text-center text-3xl mt-3 font-bold justify-center'>Blogs</h1>
       <div className='px-3 md:px-20 lg:px-52'>
         <div className="mt-10">
           <div className="grid grid-cols-1 gap-4 text-justify">
