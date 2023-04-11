@@ -59,7 +59,7 @@ const Statistics = () => {
                     <Area type="monotone" dataKey="marks" fill="#87CEFA" stroke="#00BFFF" />
                 </AreaChart>
             </ResponsiveContainer>
-        </div>
+        </div> 
   );
 };
 
