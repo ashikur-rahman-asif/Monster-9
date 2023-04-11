@@ -69,7 +69,7 @@ const Statistics = () => {
                     <XAxis dataKey="name" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotone" dataKey="marks" fill="#87CEFA" stroke="#00BFFF" />
+                    <Area type="monotone" dataKey="marks" fill="#87CEFA" stroke="#2F4F4F" />
                 </AreaChart>
             </ResponsiveContainer>
         </div> 
