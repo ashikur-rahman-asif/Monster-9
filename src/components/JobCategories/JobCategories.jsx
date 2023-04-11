@@ -22,7 +22,7 @@ const JobCategories = () => {
     <div className='category-container'>
       <div className='text-center'>
         <p className='text-3xl font-semibold pt-8 md:pt-14 pb-4'>Job Category List</p>
-        <p className='text-xs'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+        <p className='text-xl'>Job Categories and Descriptions ; Accounting and Consulting · Accounting & Consulting ; Admin Support · Admin Support ; Customer Service · Customer Service ; and Many more </p>
       </div>
       <div className='grid grid-cols-2 md:grid-cols-4 gap-3 mt-7'>
         {

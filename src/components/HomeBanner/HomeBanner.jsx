@@ -11,9 +11,7 @@ const HomeBanner = () => {
               <span className="text-indigo-500">Dream Job</span>
             </h2>
             <p>
-              Explore thousands of job opportunities with all the information
-              you need. Its your future. Come find it. Manage all your job
-              application from start to finish.
+            Turn to your community on <span className="text-indigo-500">Monster</span>, find relevant jobs and update your profile to stand out. With your LinkedIn community by your side, there’s no telling what you can do.
             </p>
             <button className="common-btn">Get Started</button>
           </div>
