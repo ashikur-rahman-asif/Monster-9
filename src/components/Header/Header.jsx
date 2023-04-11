@@ -1,62 +1,140 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { Bars3Icon } from "@heroicons/react/24/solid";
+import { Link, NavLink } from "react-router-dom";
+import { Bars3BottomRightIcon, BoltIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import './Header.css'
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div>
-      <div className="navbar bg-base-100 px-5 md:px-28">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <label tabIndex="0" className="lg:hidden">
-              <Bars3Icon className=" h-6 w-6" />
-            </label>
-            <ul
-              tabIndex="0"
-              className=" menu-compact dropdown-content mt-3 p-2 bg-yellow-100 rounded-box w-52"
-            >
-              <li>
-                <Link to="">Home</Link>
-              </li>
-              <li>
-                <Link to="/statistics">Statistics</Link>
-              </li>
-              <li>
-                <Link to="/applied">Applied Jobs</Link>
-              </li>
-              <li>
-                <Link to="/blogs">Blog</Link>
-              </li>
-            </ul>
+    <div className='job-container'>
+      <div className='header relative flex justify-between items-center'>
+        <Link to='/'>
+          <div className='flex gap-2 justify-center items-center'>
+            <p className='text-2xl md:text-4xl font-extrabold'>Monster</p>
           </div>
-          <div className="mx-auto lg:mx-0 text-lg font-bold lg:text-3xl">
-            <Link to="/">Monster</Link>
-          </div>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu-horizontal px-1 gap-5">
-            <li className="m-3 lg:m-0">
-              <Link to="">Home</Link>
+        </Link>
+          <ul className='items-center  hidden space-x-8 lg:flex'>
+            <li>
+              <NavLink to='/'
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-blue-700"
+                    : "default"
+                }
+              >
+                Home
+              </NavLink>
             </li>
-            <li className="m-3 lg:m-0">
-              <Link to="/statistics">Statistics</Link>
+            <li>
+              <NavLink to='/statistics'
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-blue-700"
+                    : "default"
+                }
+              >
+                Statistics
+              </NavLink>
             </li>
-            <li className="m-3 lg:m-0">
-              <Link to="/applied">Applied Jobs</Link>
+            <li>
+              <NavLink to='/applied'
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-blue-700"
+                    : "default"
+                }
+              >
+                Applied Jobs
+              </NavLink>
             </li>
-            <li className="m-3 lg:m-0">
-              <Link to="/blogs">Blogs</Link>
+            <li>
+              <NavLink to='/blogs'
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-blue-700"
+                    : "default"
+                }
+              >
+                Blogs
+              </NavLink>
             </li>
           </ul>
+        
+        <div className='hidden md:flex'>
+          <button className='btn btn-primary bg-gradient-to-r from-blue-600 to-indigo-500 text-white'>Start Apply</button>
         </div>
-        <div className="navbar-end">
-          <button className="common-btn">
-            Start Here
+
+
+        <div className='lg:hidden'>
+          <button
+            aria-label='Open Menu'
+            title='Open Menu'
+            onClick={() => setIsMenuOpen(true)}
+          >
+            <Bars3BottomRightIcon className='w-6 h-6 text-gray-600' />
           </button>
+          {
+            isMenuOpen && (
+              <div className='absolute top-0 left-0 w-full z-10'>
+                <div className='p-5 bg-white border rounded shadow-sm'>
+                  <div className='flex items-center justify-between mb-4'>
+                    
+                  <div>
+                    <Link to="/" className="inline-flex items-center">
+                      <BoltIcon className="h-6 w-6 text-blue-500" />
+                      <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                        Monster
+                      </span>
+                    </Link>
+                  </div>
+                    <div>
+                    <button
+                      aria-label="Close Menu"
+                      title="Close Menu"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      <XMarkIcon className="w-5 text-gray-600" />
+                    </button>
+                  </div>
+                  </div>
+                  <nav>
+                    <ul className='space-y-4'>
+                    <li>
+                      <Link to="/" className="default">
+                        Home
+                      </Link>
+                    </li>
+                      <li>
+                        <Link
+                          to='/statistics'
+                          className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'>
+                        Statistics
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to='/applied'
+                          className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
+                           >
+                          Applied Jobs
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to='/blogs'
+                          className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400' >
+                          Blogs
+                        </Link>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            )
+          }
         </div>
       </div>
-    </div>
+      </div>
+      
   );
 };
-
 export default Header;
