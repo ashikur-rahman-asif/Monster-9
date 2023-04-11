@@ -1,0 +1,124 @@
+{
+  "jobs": [
+    {
+      "id": "eifberifbierfgbiu",
+      "logo": "https://raw.githubusercontent.com/asif247/ecommerce-landing-page/main/images/logo-paypal.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "PayPal",
+      "onsiteJob": "Remote",
+      "location": "San Francisco, CA",
+      "fulltimeJob": "Full-time",
+      "salary": "140k - 180k",
+      "jobDetails": "Looking for a software engineer ",
+      "responsibility": "Lead and grow an effective and efficient engineering organization while remaining tactical and hands-on enough to drive large-scale systems design conversations",
+      "requirements": "BS degree in CS or Engineering",
+      "experiences": "10+ years of experience in Software Engineering.",
+      "contactInfo": [
+        {
+          "phone": "01xxxxxxxx",
+          "email": "ceo@paypal.com"
+        }
+      ]
+    },
+    {
+      "id": "eifberifbierfgbir",
+      "logo": "https://raw.githubusercontent.com/asif247/ecommerce-landing-page/main/images/logo-philips.png",
+      "jobTitle": "Product Manager",
+      "companyName": "Philips",
+      "onsiteJob": "Onsite",
+      "location": "State Road, CA",
+      "fulltimeJob": "Full-time",
+      "salary": "100k - 150k",
+      "jobDetails": "Looking for a product manager",
+      "responsibility": "Leads product management function for a subset of the PayPal Consumer experience space. Responsible for leading product strategy definition,",
+      "requirements": "Bachelor's degree in Graphic Design, Human-Computer Interaction, or a related field",
+      "experiences": "no experience required",
+      "contactInfo": [
+        {
+          "phone": "01xxxxxxxx",
+          "email": "jobs@philips.com"
+        }
+      ]
+    },
+    {
+      "id": "eifberifbierfgbdi",
+      "logo": "https://raw.githubusercontent.com/asif247/ecommerce-landing-page/main/images/logo-oppo.png",
+      "jobTitle": "Data Analysis",
+      "companyName": "Oppo",
+      "onsiteJob": "Remote",
+      "location": "Seattle, WA",
+      "fulltimeJob": "Full-time",
+      "salary": "140k - 180k",
+      "jobDetails": "Looking for a data analysis expert.",
+      "responsibility": "Our Marketing Analytics transformation is in full swing. We embarked on a path of transforming and building a world class Marketing Analytics Org recently.",
+      "requirements": "Degree in Statistics, Mathematics, Applied Mathematics, Computer Science, Operations Research, Engineering, Economics ",
+      "experiences": "5+ years of experience in analytics, data science or management",
+      "contactInfo": [
+        {
+          "phone": "01xxxxxxxx",
+          "email": "oppo@dot.com"
+        }
+      ]
+    },
+    {
+      "id": "eifberifbierfgdjq",
+      "logo": "https://raw.githubusercontent.com/asif247/ecommerce-landing-page/main/images/logo-philips.png",
+      "jobTitle": "Cyber security",
+      "companyName": "Philips",
+      "onsiteJob": "Remote",
+      "location": "Mountain , CA",
+      "fulltimeJob": "Full-time",
+      "salary": "120k - 180k",
+      "jobDetails": "Looking for a cyber security expert.",
+      "responsibility": "Establish, maintain, and oversee the company’s security vision and strategy and lead the program to ensure the company has the right tools",
+      "requirements": "Knowledge in risk management ",
+      "experiences": "3+ years overall experience working in cyber security position in companies (not in the army) ",
+      "contactInfo": [
+        {
+          "phone": "01xxxxxxxx",
+          "email": "ceo@philips.com"
+        }
+      ]
+    },
+    {
+      "id": "eifberifbierfieta",
+      "logo": "https://raw.githubusercontent.com/asif247/ecommerce-landing-page/main/images/logo-paypal.png",
+      "jobTitle": "Manager",
+      "companyName": "PayPal",
+      "onsiteJob": "Onsite",
+      "fulltimeJob": "Full-time",
+      "location": "California,USA",
+      "salary": "200k-233k",
+      "jobDetails": "The Director of Product Management leads a team of managers and senior individual product managers.",
+      "responsibility": "Leads product management function for a subset of the PayPal Consumer experience space. Responsible for leading product strategy definition, execution, and leadership for a team of managers working on consumer-facing experiences under the PayPal brand.",
+      "requirements": "Bachelor's or Master's degree in Design, Human-Computer Interaction or related field",
+      "experiences": "no experience required",
+      "contactInfo": [
+        {
+          "phone": "01xxxxxxxx",
+          "email": "admin@paypal.com"
+        }
+      ]
+    },
+    {
+      "id": "eifberifbieroiyta",
+      "logo": "https://raw.githubusercontent.com/asif247/ecommerce-landing-page/main/images/logo-oppo.png",
+      "jobTitle": "Devops Engineer",
+      "companyName": "Oppo",
+      "onsiteJob": "Remote",
+      "location": "Mountain , CA",
+      "fulltimeJob": "Full-time",
+      "salary": "200k - 220k",
+      "jobDetails": "Looking for a devOps engineer",
+      "responsibility": "At [Company X], customer experience is at the forefront of everything we do. To help us build functional systems that improve the customer experience,",
+      "requirements": "Bachelor's or Master's degree in Computer Science or related field",
+      "experiences": "3+ years of experience in software engineering",
+      "contactInfo": [
+        {
+          "phone": "01xxxxxxxx",
+          "email": "oppo@dot.com"
+        }
+      ]
+    }
+  ]
+}
