@@ -30,7 +30,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="mx-auto lg:mx-0 text-lg font-bold lg:text-3xl">
-            <h1>Monster</h1>
+            <Link to="/">Monster</Link>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
