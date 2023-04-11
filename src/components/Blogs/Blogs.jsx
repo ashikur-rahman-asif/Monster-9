@@ -22,6 +22,14 @@ const Blogs = () => {
             </div>
           </div>
         </div>
+        <div className="mt-10">
+          <div className="grid grid-cols-1 gap-4 text-justify">
+            <div className="border-solid border-2 p-4 bg-slate-100">
+              <h3 className="text-2xl">3.What is useRef in react.js?</h3>
+              <p className="mt-2">The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated.  </p>
+            </div>
+          </div>
+        </div>
      </div>
     </div>
   );
