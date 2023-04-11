@@ -1,5 +1,5 @@
 # This is Assignment 9
-# Develop a Job finding website
+# Develop a Job finding website using react js
 # Features of My website
 <li>Quick and Easily finding job post </li>
 <li>See the job Posts </li>
