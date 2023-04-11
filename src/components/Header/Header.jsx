@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Bars3Icon } from "@heroicons/react/24/solid";
-
+import './Header.css'
 const Header = () => {
   return (
     <div>
