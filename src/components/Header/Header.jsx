@@ -52,7 +52,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="px-4 py-3 rounded text-white bg-primary text-sm">
+          <button className="common-btn">
             Start Here
           </button>
         </div>
