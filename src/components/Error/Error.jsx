@@ -16,7 +16,7 @@ const Error = () => {
           <p className="text-2xl font-semibold md:text-3xl text-red-800 mb-8">
             {error?.message}
           </p>
-          <Link to="/" className="btn">
+          <Link to="/" className="common-btn">
             Back to homepage
           </Link>
         </div>
