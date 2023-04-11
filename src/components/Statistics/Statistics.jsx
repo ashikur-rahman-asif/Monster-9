@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 const Statistics = () => {
     const data = [
@@ -35,10 +35,23 @@ const Statistics = () => {
             marks: 60,
         },
     ];
-
+    // const calculateAverage = () => {
+    //     let total = 0
+    //     const arrayLength = data.length
+    //     // for (let i = 1; i => arrayLength; i++) {
+    //     //     const mark = data[i].marks
+    //     //     total=total+mark
+    //     // }
+    // }
+    // setAverage(0)
+    const [average,setAverage]=useState(0)
+    // useEffect(() => {
+    //     calculateAverage()
+    // },[])
   return (
     <div className='p-3 lg:px-16'>
-            <h3 className='text-center font-semibold text-2xl py-5'>Assignment Analytics:</h3>
+          <h3 className='text-center font-semibold text-2xl py-5'>Assignment Analytics:</h3>
+          <h3>{(data.reduce((partialSum, a) => partialSum + a.marks, 0)/data.length).toFixed(2)}</h3>
             <ResponsiveContainer width='100%' height={300}>
                 <AreaChart
                     width={600}
