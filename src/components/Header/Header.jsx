@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { Bars3BottomRightIcon, BoltIcon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Bars3BottomRightIcon,XMarkIcon } from "@heroicons/react/24/solid";
 import './Header.css'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -80,7 +80,6 @@ const Header = () => {
                     
                   <div>
                     <Link to="/" className="inline-flex items-center">
-                      <BoltIcon className="h-6 w-6 text-blue-500" />
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                         Monster
                       </span>
